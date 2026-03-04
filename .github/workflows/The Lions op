@@ -1,0 +1,135 @@
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lion Vapes – Premium Hookah Vape</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 40px 20px;
+    background: linear-gradient(90deg, #9d00ff, #00cfff);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.product {
+    margin: 40px auto;
+    max-width: 400px;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #9d00ff;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #9d00ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00cfff;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: #111;
+    font-size: 14px;
+}
+
+.age-popup {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9999;
+}
+
+.age-popup button {
+    width: 200px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="age-popup" id="agePopup">
+    <h2>🔞 Zutritt erst ab 18 Jahren</h2>
+    <p>Diese Website enthält Produkte für Erwachsene.</p>
+    <button onclick="enterSite()">Ich bin 18+</button>
+    <button onclick="leaveSite()">Unter 18</button>
+</div>
+
+<header>
+🦁 The Loins op
+</header>
+
+<div class="product">
+    <h2>Hookah Pro 10000</h2>
+    <p>Premium Disposable Vape – 0MG Nicotine – TPD Compliant</p>
+
+    <!-- Rickroll -->
+    <button onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">
+        1 Stück – $7
+    </button>
+
+    <button onclick="window.location.href='https://pointerpointer.com/'">
+        2 Stück – $18
+    </button>
+
+    <button onclick="window.location.href='https://thatsthefinger.com/'">
+        5 Stück – $35 🔥 Bestseller
+    </button>
+
+    <button onclick="window.location.href='https://www.staggeringbeauty.com/'">
+        10 Stück – $88 💎 Save Big
+    </button>
+
+    <button onclick="window.location.href='https://cat-bounce.com/'">
+        20 Stück – $160
+    </button>
+
+    <button onclick="window.location.href='https://heeeeeeeey.com/'">
+        50 Stück – $350
+    </button>
+
+</div>
+
+<footer>
+<p>⚠️ Verkauf nur an Personen ab 18 Jahren.</p>
+<p>Impressum | AGB | Datenschutz | Widerrufsrecht</p>
+<p>© 2026 Loin Vapes op</p>
+</footer>
+
+<script>
+function enterSite() {
+    document.getElementById("agePopup").style.display = "none";
+}
+
+function leaveSite() {
+    window.location.href = "https://www.google.com";
+}
+</script>
+
+</body>
+</html>
